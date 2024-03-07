@@ -824,8 +824,8 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
 
-   <remote name="android-x86" fetch="https://gitlab.com/android-generic"  />
-    <project path="vendor/google/emu-x86" name="andorid-x86/vendor/google/emu-x86" revision="master" remote="android-x86" groups="pdk,pdk-cw-fs,pdk-fs" />
+   <remote name="android-x86" fetch="https://gitlab.com"  />
+    <project path="vendor/google/emu-x86" name="android-generic/andorid-x86/vendor/google/emu-x86" revision="master" remote="android-x86" groups="pdk,pdk-cw-fs,pdk-fs" />
 
 
   
