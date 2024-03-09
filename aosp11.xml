@@ -827,7 +827,20 @@
    <remote name="android-x86" fetch="https://gitlab.com"  />
     <project path="vendor/google/emu-x86" name="android-generic/android_vendor_google_emu-x86" revision="r11-x86_64" remote="android-x86" groups="pdk,pdk-cw-fs,pdk-fs" />
 
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+<remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
 
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+<!-- arm64 depends on arm -->
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+
+<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  
   
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
