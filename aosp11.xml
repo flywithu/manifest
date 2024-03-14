@@ -826,8 +826,8 @@
 
 
    <remote name="flywithu" fetch="https://github.com"  />
-   <project path="docker" name="flywithu/docker" remote="flywithu" revision="master" groups="pdk,pdk-cw-fs,pdk-fs">
-<!--    <linkfile src="fly.sh" dest="fly.sh" />
+<!--   <project path="docker" name="flywithu/docker" remote="flywithu" revision="master" groups="pdk,pdk-cw-fs,pdk-fs">
+    <linkfile src="fly.sh" dest="fly.sh" />
     <linkfile src="with.sh" dest="with.sh" />
     <linkfile src="u.sh" dest="u.sh" />
     <linkfile src="config" dest="config" />
