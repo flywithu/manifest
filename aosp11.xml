@@ -830,6 +830,7 @@
     <linkfile src="fly.sh" dest="fly.sh" />
     <linkfile src="with.sh" dest="with.sh" />
     <linkfile src="u.sh" dest="u.sh" />
+    <linkfile src="config" dest="config" />
 
    </project>
 
