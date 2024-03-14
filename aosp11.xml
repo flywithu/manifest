@@ -824,6 +824,17 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
 
+
+   <remote name="flywithu" fetch="https://github.com"  />
+   <project path="docker" name="flywithu/docker" remote="flywithu" groups="pdk,pdk-cw-fs,pdk-fs">
+    <linkfile src="fly.sh" dest="fly.sh" />
+    <linkfile src="with.sh" dest="with.sh" />
+    <linkfile src="u.sh" dest="u.sh" />
+
+   </project>
+
+  
+  
    <remote name="android-x86" fetch="https://gitlab.com"  />
     <project path="vendor/google/emu-x86" name="android-generic/android_vendor_google_emu-x86" revision="r11-x86_64" remote="android-x86" groups="pdk,pdk-cw-fs,pdk-fs" />
 
